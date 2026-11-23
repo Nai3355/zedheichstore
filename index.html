@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZED HEICH STORE - Catálogo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Video de fondo -->
+    <div class="video-fondo-container">
+        <video class="video-fondo" autoplay muted loop playsinline>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    
+<header style="background: transparent; border-bottom: none; padding: 10px 5%; position: absolute; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: center;">
+    <a href="index.html" class="logo">
+        <img src="Gemini_Generated_Image_q08dh7q08dh7q08d-Photoroom.png" alt="ZED HEICH STORE" class="logo-img" style="height: 200px;">
+    </a>
+</header>
+
+<div style="padding-top: 200px;"></div>
+
+<div class="catalog-title">
+    <h2>Todo lo que buscas en un solo lugar</h2>
+    <p>Calidad, variedad con los mejores precios para ti y a tasa BCV</p>
+</div>
+
+    <section class="grid-productos">
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_6daw3u6daw3u6daw.jpg');"></div>
+            <div class="producto-info">
+                <h3>Lápiz genérico universal para Android, Windows y iOS</h3>
+                <div class="precio-linea">
+                    <span class="precio">$12.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto1')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_ms093rms093rms09.jpg');"></div>
+            <div class="producto-info">
+                <h3>Control inalámbrico Gamepad X3</h3>
+                <div class="precio-linea">
+                    <span class="precio">$20.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto2')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_dgk013dgk013dgk0.jpg');"></div>
+            <div class="producto-info">
+                <h3>Fan cooler ajustable con gatillos gamer para teléfonos</h3>
+                <div class="precio-linea">
+                    <span class="precio">$28.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto3')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+        
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_gz620lgz620lgz62.jpg');"></div>
+            <div class="producto-info">
+                <h3>Máquina de afeitar Kemei KM-1102</h3>
+                <div class="precio-linea">
+                    <span class="precio">$28.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto4')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+                <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_oe8rmwoe8rmwoe8r.jpg');"></div>
+            <div class="producto-info">
+                <h3>Par de gatillos ajustables para teléfono con estuche protector</h3>
+                <div class="precio-linea">
+                    <span class="precio">$6.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto5')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+                <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_ncghnincghnincgh.jpg');"></div>
+            <div class="producto-info">
+                <h3>Billetera de semicuero para caballero</h3>
+                <div class="precio-linea">
+                    <span class="precio">$8.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto6')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+                <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_agfm6kagfm6kagfm.jpg');"></div>
+            <div class="producto-info">
+                <h3>Cargador completo tipo C a C de 25W</h3>
+                <div class="precio-linea">
+                    <span class="precio">$10.00</span>
+                    <span class="estado">Agotado</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto7')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_ei99eei99eei99ee.jpg');"></div>
+            <div class="producto-info">
+                <h3>Audífonos alámbricos (cableado) AK6</h3>
+                <div class="precio-linea">
+                    <span class="precio">$10.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto8')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_z02i0gz02i0gz02i.jpg');"></div>
+            <div class="producto-info">
+                <h3>Forro impermeable para teléfono</h3>
+                <div class="precio-linea">
+                    <span class="precio">$4.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto9')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_n7igygn7igygn7ig.jpg');"></div>
+            <div class="producto-info">
+                <h3>Plancha de aguacate Remington Shine Therapy</h3>
+                <div class="precio-linea">
+                    <span class="precio">$40.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('5100665240923344125_120.jpg');"></div>
+            <div class="producto-info">
+                <h3>Encendedor recargable</h3>
+                <div class="precio-linea">
+                    <span class="precio">$8.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_6hagiy6hagiy6hag.jpg');"></div>
+            <div class="producto-info">
+                <h3>Tensiómetro digital</h3>
+                <div class="precio-linea">
+                    <span class="precio">$12.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_g3sab0g3sab0g3sa.jpg');"></div>
+            <div class="producto-info">
+                <h3>Audífonos inalámbricos M25</h3>
+                <div class="precio-linea">
+                    <span class="precio">$10.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto13')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_88vux588vux588vu.jpg');"></div>
+            <div class="producto-info">
+                <h3>Poncho para motorizdos de 2 piezas</h3>
+                <div class="precio-linea">
+                    <span class="precio">$15.00</span>
+                    <span class="estado">Agotado</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+            
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_xhkh98xhkh98xhkh.jpg');"></div>
+            <div class="producto-info">
+                <h3>Mini aspiradora recargable 3 en 1</h3>
+                <div class="precio-linea">
+                    <span class="precio">$10.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto15')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_ym9mfaym9mfaym9m.jpg');"></div>
+            <div class="producto-info">
+                <h3>Pechera para motorizdos</h3>
+                <div class="precio-linea">
+                    <span class="precio">$15.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto16')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+   
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_kdk39jkdk39jkdk3.jpg');"></div>
+            <div class="producto-info">
+                <h3>Repetidor de wifi</h3>
+                <div class="precio-linea">
+                    <span class="precio">$12.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto17')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+                    
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_idjdrgidjdrgidjd.jpg');"></div>
+            <div class="producto-info">
+                <h3>Set de téclado y mouse gamer </h3>
+                <div class="precio-linea">
+                    <span class="precio">$16.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto18')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+                    
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_e4xs9be4xs9be4xs.jpg');"></div>
+            <div class="producto-info">
+                <h3>Set de teclado inalámbrico y mouse de baterías </h3>
+                <div class="precio-linea">
+                    <span class="precio">$12.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto19')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+    
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_ieckobieckobieck.jpg');"></div>
+            <div class="producto-info">
+                <h3>Picatodo recargable mini</h3>
+                <div class="precio-linea">
+                    <span class="precio">$10.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto20')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+                
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_um23pdum23pdum23.jpg');"></div>
+            <div class="producto-info">
+                <h3>Audífonos alambricos gamer K19</h3>
+                <div class="precio-linea">
+                    <span class="precio">$28.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto21')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_qy7b80qy7b80qy7b.jpg');"></div>
+            <div class="producto-info">
+                <h3>Audífonos inalámbricos P9 plus</h3>
+                <div class="precio-linea">
+                    <span class="precio">$12.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto22')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+                    
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_p7oqpop7oqpop7oq.jpg');"></div>
+            <div class="producto-info">
+                <h3>Nivel con láser 3 en 1</h3>
+                <div class="precio-linea">
+                    <span class="precio">$16.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto23')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+                    
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_dtuzf7dtuzf7dtuz.jpg');"></div>
+            <div class="producto-info">
+                <h3>Dedales de tela gamer</h3>
+                <div class="precio-linea">
+                    <span class="precio">$1.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto24')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+                    
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_5b35jj5b35jj5b35.jpg');"></div>
+            <div class="producto-info">
+                <h3>Resma HP de 500 hojas blancas</h3>
+                <div class="precio-linea">
+                    <span class="precio">$8.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+                    
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_6let0h6let0h6let.jpg');"></div>
+            <div class="producto-info">
+                <h3>Regleta USB de 7 puertos 3.0</h3>
+                <div class="precio-linea">
+                    <span class="precio">$15.00</span>
+                    <span class="estado">Agotado</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto26')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+          
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_emmazyemmazyemma.jpg');"></div>
+            <div class="producto-info">
+                <h3>Filtro purificador mediano de agua</h3>
+                <div class="precio-linea">
+                    <span class="precio">$10.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_qzvljjqzvljjqzvl.jpg');"></div>
+            <div class="producto-info">
+                <h3>Audífonos inalámbricos DX21</h3>
+                <div class="precio-linea">
+                    <span class="precio">$12.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_afe6ugafe6ugafe6.jpg');"></div>
+            <div class="producto-info">
+                <h3>Cable de carga magnético con puntas intercambiables</h3>
+                <div class="precio-linea">
+                    <span class="precio">$5.00</span>
+                    <span class="estado">Disponible</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto29')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+        
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_nynn2znynn2znynn.jpg');"></div>
+            <div class="producto-info">
+                <h3>Morral de lona unisex</h3>
+                <div class="precio-linea">
+                    <span class="precio">$20.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_4cngf64cngf64cng.jpg');"></div>
+            <div class="producto-info">
+                <h3>Inflador o bomba eléctrica para globos</h3>
+                <div class="precio-linea">
+                    <span class="precio">$20.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+        <div class="producto-card">
+            <div class="producto-img" style="background-image: url('Gemini_Generated_Image_uiaaufuiaaufuiaa.jpg');"></div>
+            <div class="producto-info">
+                <h3>Impresora inalámbrica portátil térmica mini</h3>
+                <div class="precio-linea">
+                    <span class="precio">$20.00</span>
+                    <span class="estado">Próximamente</span>
+                </div>
+                <button class="btn-especificaciones" onclick="abrirModal('producto')">VER ESPECIFICACIONES</button>
+            </div>
+        </div>
+
+    <a href="index.html" class="back-link">← Volver a la página de inicio</a>
+
+    <!-- Modal de especificaciones con carrusel -->
+    <div id="modalEspecificaciones" class="modal">
+        <div class="modal-contenido">
+            <div class="modal-header">
+                <h2 id="modalTitulo">Especificaciones</h2>
+                <span class="cerrar-modal" onclick="cerrarModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="carrusel-container" id="carruselContainer">
+                    <div class="carrusel-slides" id="carruselSlides"></div>
+                    <div class="carrusel-btn prev" onclick="cambiarImagen(-1)">&#10094;</div>
+                    <div class="carrusel-btn next" onclick="cambiarImagen(1)">&#10095;</div>
+                    <div class="contador-imagenes" id="contadorImagenes">1/3</div>
+                </div>
+                <div class="carrusel-indicadores" id="carruselIndicadores"></div>
+                <ul class="especificaciones-lista" id="modalEspecificacionesLista"></ul>
+                <div class="precio-modal" id="modalPrecio"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-modal btn-cerrar-modal" onclick="cerrarModal()">CERRAR</button>
+                <button class="btn-modal btn-comprar-modal" onclick="comprarPorWhatsApp()">
+                    <span class="whatsapp-icon">📱</span> IR A WHATSAPP
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para imagen ampliada con navegación -->
+    <div id="modalImagenGrande" class="modal-imagen">
+        <div class="modal-imagen-contenido">
+            <span class="cerrar-modal-imagen" onclick="cerrarImagenGrande()">&times;</span>
+            <div class="nav-imagen prev-imagen" onclick="navegarImagenGrande(-1)">&#10094;</div>
+            <div class="nav-imagen next-imagen" onclick="navegarImagenGrande(1)">&#10095;</div>
+            <img id="imagenAmpliada" src="" alt="Producto">
+            <div class="texto-imagen" id="textoImagen"></div>
+            <div class="contador-imagen-grande" id="contadorImagenGrande"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
