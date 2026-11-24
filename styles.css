@@ -103,9 +103,15 @@ header {
 
 @media (max-width: 768px) {
     .grid-productos {
+<<<<<<< HEAD
         padding: 0 2% 30px 2%; /* Margen lateral más pequeño para ganar espacio */
         gap: 10px;
         grid-template-columns: repeat(2, 1fr); /* 2 columnas en móvil */
+=======
+        padding: 0 4% 30px 4%;
+        gap: 10px;
+        grid-template-columns: 1fr;
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     }
 }
 
@@ -127,12 +133,17 @@ header {
 
 .producto-img {
     height: 320px;
+<<<<<<< HEAD
     background-color: #FFFFFF;
+=======
+    background-color: #FFFFFF;          /* <-- Fondo oscuro de tu web */
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--gris-texto);
     font-size: 12px;
+<<<<<<< HEAD
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -141,6 +152,15 @@ header {
 @media (max-width: 768px) {
     .producto-img {
         height: 150px; /* Reducido para que quepa mejor en 2 columnas */
+=======
+    background-size: contain;           /* <-- Imagen completa */
+    background-repeat: no-repeat;       /* <-- Que no se repita */
+    background-position: center;        /* <-- Centrada */
+}
+@media (max-width: 768px) {
+    .producto-img {
+        height: 180px;
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     }
 }
 
@@ -151,7 +171,11 @@ header {
 
 @media (max-width: 768px) {
     .producto-info {
+<<<<<<< HEAD
         padding: 10px; /* Menos padding en móvil */
+=======
+        padding: 15px;
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     }
 }
 
@@ -163,8 +187,12 @@ header {
 
 @media (max-width: 768px) {
     .producto-info h3 {
+<<<<<<< HEAD
         font-size: 0.85rem; /* Título más pequeño para que quepa */
         line-height: 1.2;
+=======
+        font-size: 1rem;
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     }
 }
 
@@ -182,6 +210,7 @@ header {
     margin: 4px 0 10px 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
     .precio {
         font-size: 1.1rem; /* Precio más pequeño */
@@ -191,6 +220,8 @@ header {
     }
 }
 
+=======
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
 .precio-linea {
     display: flex;
     align-items: center;
@@ -212,7 +243,11 @@ header {
     background-color: transparent;
     color: var(--blanco);
     border: 1px solid var(--cian-electrico);
+<<<<<<< HEAD
     padding: 8px 4px; /* Ajustado para evitar que se desborde */
+=======
+    padding: 4px;
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 5px;
@@ -236,10 +271,15 @@ header {
 
 @media (max-width: 768px) {
     .btn-especificaciones {
+<<<<<<< HEAD
         padding: 10px 5px;
         font-size: 0.7rem; /* Botón más pequeño */
         white-space: normal; /* Permite que el texto baje de línea si es necesario */
         line-height: 1.2;
+=======
+        padding: 14px;
+        font-size: 0.9rem;
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     }
 }
 
@@ -475,11 +515,19 @@ header {
 
 .carrusel-slide {
     min-width: 100%;
+<<<<<<< HEAD
     height: 300px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #1A1A1C;
+=======
+    height: 300px;                 /* <-- Un poco más alto para que quepa completa */
+    background-size: contain;      /* <-- contain = se ve completa, sin recortar */
+    background-repeat: no-repeat;  /* <-- Que no se repita */
+    background-position: center;
+    background-color: #1A1A1C;     /* <-- Fondo oscuro para que se vea bien */
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     cursor: pointer;
 }
 
@@ -663,6 +711,7 @@ header {
 
 @media (max-width: 380px) {
     .producto-info h3 {
+<<<<<<< HEAD
         font-size: 0.8rem; /* Ajuste extra para pantallas muy pequeñas */
     }
     .precio {
@@ -671,6 +720,16 @@ header {
     .btn-especificaciones {
         padding: 8px;
         font-size: 0.65rem;
+=======
+        font-size: 0.95rem;
+    }
+    .precio {
+        font-size: 1.2rem;
+    }
+    .btn-especificaciones {
+        padding: 12px;
+        font-size: 0.85rem;
+>>>>>>> 9c517c49b3dae71957527e273f7a3075c900ce66
     }
 }
 
